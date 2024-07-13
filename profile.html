@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>profile page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+   <nav>
+        <div class="nav-left">
+          <a href="index.html">
+           <img src="images/logo2.png" class="logo">
+           </a>
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png">
+            </div>
+        </div>
+        <div class="settings-menu">
+          
+          <div id="dart-btn">
+              <span></span>
+          </div>
+           <div class="settings-menu-inner">
+               <div class="user-profile">
+                <img src="images/profile-pic.png">
+                <div>
+                    <p>Jhon Doe</p>
+                    <a href="profile.html">See Your Profile</a>
+                </div>
+            </div>
+            <hr>`
+            <div class="user-profile">
+                <img src="images/feedback.png" class="settings-icon">
+                <div>
+                    <p>Jhon Doe</p>
+                    <a href="#">See Your Profile</a>
+                </div>
+            </div>
+            <hr>
+            
+            
+            <div class="setting-link">
+                <img src="images/setting.png"class="settings-icon">
+                <a href="#">Setting and privacy <img src="images/arrow.png" width="10px"></a>
+            </div>
+             
+            <div class="setting-link">
+                <img src="images/help.png"class="settings-icon">
+                <a href="#">Help & suport<img src="images/arrow.png" width="10px"></a>
+            </div>
+             
+            <div class="setting-link">
+                <img src="images/display.png"class="settings-icon">
+                <a href="#">Display & Accessibility<img src="images/arrow.png" width="10px"></a>
+            </div>
+            <div class="setting-link">
+                <img src="images/logout.png"class="settings-icon">
+                <a href="#">Logout<img src="images/arrow.png" width="10px"></a>
+            </div>
+           </div>
+            
+        </div>
+   </nav>
+   
+   <!--profile code is start here-->
+   
+   <div class="profile-container">
+       <img src="images/cover.png" class="cover-img">
+       <div class="profile-details">
+           <div class="pd-left">
+               <div class="pd-row">
+                   <img src="images/profile.png" class="pd-img">
+                   <div>
+                       <h3>Jhon Doe</h3>
+                       <p>112 friends - 20 mutual</p>
+                       <img src="images/member-1.png">
+                       <img src="images/member-2.png">
+                       <img src="images/member-3.png">
+                       <img src="images/member-4.png">
+                   </div>
+               </div>
+           </div>
+           <div class="pd-right">
+               <button type="button"> <img src="images/add-friends.png">Friend</button>
+               <button type="button"> <img src="images/message.png">Message</button>
+               <br>
+               <a href="#"> <img src="images/more.png"></a>
+           </div>
+       </div>
+       
+       <div class="profile-info">
+           <div class="info-col">
+               
+               <div class="profile-intro">
+                   <h3>Intro</h3>
+                   <p class="intro-text">Believe in yourself and you can do unbelivable things <img src="images/feeling.png"></p>
+                   <hr>
+                   <ul>
+                       <li> <img src="images/profile-job.png">Director at New Track Ltd</li>
+                       <li> <img src="images/profile-study.png">Studied at Sonargoan University</li>
+                       <li> <img src="images/profile-home.png">lives in Dhaka, Bangladesh</li>
+                       <li> <img src="images/profile-location.png">From Bhola, Barisal</li>
+                   </ul>
+               </div>
+               <div class="profile-intro">
+                  <div class="tital-box">
+                      
+                      <h3>Photo</h3>
+                   <a href="#">All Photos</a>
+                  </div>
+                   
+                   <div class="photo-box">
+                       <img src="images/photo1.png">
+                       <img src="images/photo2.png">
+                       <img src="images/photo3.png">
+                       <img src="images/photo4.png">
+                       <img src="images/photo5.png">
+                        <img src="images/photo3.png">
+                   </div>
+               </div>
+               <div class="profile-intro">
+                  <div class="tital-box">
+                      
+                      <h3>Friends</h3>
+                   <a href="#">All Friend</a>
+                  </div>
+                    <p>120 (mutual)</p>
+                   <div class="friend-box">
+                       
+                    <div><img src="images/member-1.png"> <p>Cehl</p></div>
+                        <div><img src="images/member-2.png"> <p>Atj Asif</p></div>
+                        <div><img src="images/member-3.png"><p>George D</p></div>
+                        <div><img src="images/member-4.png"><p>Jhone doe</p></div>
+                        <div><img src="images/member-5.png"><p>Shamim</p></div>
+                        <div><img src="images/member-6.png"><p>Antony E</p></div>
+                        <div><img src="images/member-7.png"><p>Hridoy</p></div>
+                        <div><img src="images/member-8.png"><p>Bradon C</p></div>
+                        <div><img src="images/member-9.png"><p>jamse l</p></div>
+                       
+                   </div>
+               </div>
+           </div>
+           <div class="post-col">
+               
+                <div class="write-post-container">
+            <div class="user-profile">
+                <img src="images/profile-pic.png">
+                <div>
+                <p>Jhon Nick</p>
+                <small>Public <i class="fa-sharp fa-light fa-angle-down"></i></small>
+                </div>
+            </div>
+              <div class="post-input-container">
+            <textarea rows="3" placeholder="What's on your mind, jhon?"></textarea>
+            <div class="add-post-links">
+              <a href="#"><img src="images/live-video.png">Live Video</a>
+              <a href="#"><img src="images/photo.png">photo/Video</a>
+              <a href="#"><img src="images/feeling.png">Feeling/Activity</a>
+            </div>
+        </div>
+        </div>
+           <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                <img src="images/profile-pic.png">
+                <div>
+                <p>Jhon Nick</p>
+              <span>June 24 2023, 12:23pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fa-sharp fa-light fa-ellipsis-vertical"></i></a>
+            </div>
+             
+            <p class="post-text">Subscribe <span> @Easy tuturial Youtube channel </span> to watch more video Website Development and UI Design. <a href="#">#Easitutorial</a> <a href="#">#YouTubechannel</a></p>
+            <a href="#"><img src="images/feed-image-1.png" class="post-img"></a>
+            
+            <div class="post-row">
+                <div class="activity-icon">
+                    <div><img src="images/like-blue.png">300</div>
+                    <div><img src="images/comments.png">120</div>
+                    <div><img src="images/share.png">20</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"><i class="fa-sharp fa-light fa-angle-down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                <img src="images/profile-pic.png">
+                <div>
+                <p>Jhon Nick</p>
+              <span>June 24 2023, 12:23pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fa-sharp fa-light fa-ellipsis-vertical"></i></a>
+            </div>
+             
+            <p class="post-text">Like and share this video with the friends, tag <span> @Easy tuturial Youtube channel </span>facebook page on your post. Asked your doubt in comment box.<a href="#">#Easitutorial</a> <a href="#">#YouTubechannel</a></p>
+            <a href="#"><img src="images/feed-image-2.png" class="post-img"></a>
+            
+            <div class="post-row">
+                <div class="activity-icon">
+                    <div><img src="images/like-blue.png">300</div>
+                    <div><img src="images/comments.png">120</div>
+                    <div><img src="images/share.png">20</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"><i class="fa-sharp fa-light fa-angle-down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                <img src="images/profile-pic.png">
+                <div>
+                <p>Jhon Nick</p>
+              <span>June 24 2023, 12:23pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fa-sharp fa-light fa-ellipsis-vertical"></i></a>
+            </div>
+             
+            <p class="post-text">Like and share this video with the friends, tag <span> @Easy tuturial Youtube channel </span>facebook page on your post. Asked your doubt in comment box.<a href="#">#Easitutorial</a> <a href="#">#YouTubechannel</a></p>
+            <a href="#"><img src="images/feed-image-3.png" class="post-img"></a>
+            
+            <div class="post-row">
+                <div class="activity-icon">
+                    <div><img src="images/like-blue.png">300</div>
+                    <div><img src="images/comments.png">120</div>
+                    <div><img src="images/share.png">20</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"><i class="fa-sharp fa-light fa-angle-down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                <img src="images/profile-pic.png">
+                <div>
+                <p>Jhon Nick</p>
+              <span>June 24 2023, 12:23pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fa-sharp fa-light fa-ellipsis-vertical"></i></a>
+            </div>
+             
+            <p class="post-text">Like and share this video with the friends, tag <span> @Easy tuturial Youtube channel </span>facebook page on your post. Asked your doubt in comment box.<a href="#">#Easitutorial</a> <a href="#">#YouTubechannel</a></p>
+            <a href="#"><img src="images/feed-image-4.png" class="post-img"></a>
+            
+            <div class="post-row">
+                <div class="activity-icon">
+                    <div><img src="images/like.png">300</div>
+                    <div><img src="images/comments.png">120</div>
+                    <div><img src="images/share.png">20</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"><i class="fa-sharp fa-light fa-angle-down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                <img src="images/profile-pic.png">
+                <div>
+                <p>Jhon Nick</p>
+              <span>June 24 2023, 12:23pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fa-sharp fa-light fa-ellipsis-vertical"></i></a>
+            </div>
+             
+            <p class="post-text">Like and share this video with the friends, tag <span> @Easy tuturial Youtube channel </span>facebook page on your post. Asked your doubt in comment box.<a href="#">#Easitutorial</a> <a href="#">#YouTubechannel</a></p>
+            <a href="#"><img src="images/feed-image-2.png" class="post-img"></a>
+            
+            <div class="post-row">
+                <div class="activity-icon">
+                    <div><img src="images/like-blue.png">300</div>
+                    <div><img src="images/comments.png">120</div>
+                    <div><img src="images/share.png">20</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"><i class="fa-sharp fa-light fa-angle-down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                <img src="images/profile-pic.png">
+                <div>
+                <p>Jhon Nick</p>
+              <span>June 24 2023, 12:23pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fa-sharp fa-light fa-ellipsis-vertical"></i></a>
+            </div>
+             
+            <p class="post-text">Like and share this video with the friends, tag <span> @Easy tuturial Youtube channel </span>facebook page on your post. Asked your doubt in comment box.<a href="#">#Easitutorial</a> <a href="#">#YouTubechannel</a></p>
+            <a href="#"><img src="images/feed-image-5.png" class="post-img"></a>
+            
+            <div class="post-row">
+                <div class="activity-icon">
+                    <div><img src="images/like-blue.png">300</div>
+                    <div><img src="images/comments.png">120</div>
+                    <div><img src="images/share.png">20</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"><i class="fa-sharp fa-light fa-angle-down"></i>
+                </div>
+            </div>
+        </div>
+           </div>
+       </div>
+   </div>
+   <!--profile code is end here-->
+   <div class="footer">
+       <p>Copyright2023 - Easy Tutorial YouTube channel</p>
+   </div>
+    <script src="index.js"></script>
+</body>
+</html>
